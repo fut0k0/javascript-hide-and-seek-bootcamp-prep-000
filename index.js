@@ -26,5 +26,7 @@ function deepestChilds() {
 
 function deepestChild() {
   var target = documenet.getElementById(`grand-node`);
-  
+  while (target.children) {
+    
+  }
 }
