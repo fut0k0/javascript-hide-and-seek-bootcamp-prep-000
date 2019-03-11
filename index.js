@@ -31,4 +31,5 @@ function deepestChild() {
     result = target.children[0];
     target = target.children[0];
   }
+  return result.innerHTML;
 }
