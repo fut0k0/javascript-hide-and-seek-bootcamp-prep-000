@@ -13,7 +13,7 @@ function increaseRankBy(n) {
   }
 }
 
-function deepestChild() {
+function deepestChilds() {
   
   var target = document.getElementById(`grand-node`);
   var child = target.children[0];
@@ -22,4 +22,9 @@ function deepestChild() {
     child = target.children[0];
   } 
   return target;
+}
+
+function deepestChild() {
+  var target = documenet.getElementById(`grand-node`);
+  
 }
