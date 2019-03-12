@@ -27,7 +27,7 @@ function deepestChilds() {
 function deepestChild() {
   var target = document.getElementById(`grand-node`);
   var tracker = target.children[0];
-  while (target) {
+  while (target.children.length > 0) {
     tracker = target.children[0];
     target = target.children[0];
   }
