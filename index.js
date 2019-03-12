@@ -27,10 +27,9 @@ function deepestChilds() {
 function deepestChild() {
   var target = document.getElementById(`grand-node`);
   var result = target.children[0];
-  while (result) {
-    
-    target = target.children[0];
+  while (target) {
     result = target.children[0];
+    target = target.children[0];
   }
   return result;
 }
