@@ -28,8 +28,8 @@ function deepestChild() {
   var target = document.getElementById(`grand-node`);
   var tracker = target.children[0];
   while (target.children.length > 0) {
-    tracker = target;
     target = target.children[0];
+    tracker = target;
   }
   return tracker;
 }
