@@ -31,5 +31,5 @@ function deepestChild() {
     target = target.children[0];
     tracker = target;
   }
-  return tracker;
+  return target;
 }
